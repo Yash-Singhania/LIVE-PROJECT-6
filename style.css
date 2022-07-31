@@ -1,0 +1,95 @@
+#navbarMonstera {
+    display: flex;
+    align-items: center;
+}
+
+#navFirst {
+    flex: 15;
+    text-align: center;
+}
+
+#navMid {
+    display: flex;
+    justify-content: space-evenly;
+    flex: 70;
+}
+
+#navMid > * {
+    font-size: 20px;
+}
+
+#navEnd {
+    display: flex;
+    justify-content: space-evenly;
+    flex: 15;
+}
+
+#midWhole {
+    display: flex;
+}
+
+#midWholePart1 {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+}
+
+#midWholePart11 div ul li {
+    font-family: "abel";
+    font-size: 20px;
+    width: 500px;
+
+}
+
+#monstera {
+    font-size: 100px;
+    font-family: "Allerta";
+    margin-bottom: -10px;
+}
+
+
+
+#midWholePart121 {
+    display: flex;
+    align-items: center;
+    background-color: #466D50;
+    width: max-content;
+    padding: 0 50px;
+    border-radius: 50px;
+}
+
+#midWholePart121 div h1 {
+    color: #FFFFFF;
+    margin-right: 15px;
+}
+
+
+#midWholePart13 {
+    display: flex;
+}
+
+.midWholePart13Parts {
+    display: flex;
+    align-items: center;
+}
+
+.midWholePart13Parts div img {
+    margin-right: 10px;
+}
+
+.midWholePart13Parts div h4 {
+    font-size: 25px;
+}
+
+.text {
+    font-size: 14px;
+    margin-top: -33px;
+    color: #575757;
+}
+
+#imgMain {
+    height: 85vh;
+    position: relative;
+    top: 25px;
+}
